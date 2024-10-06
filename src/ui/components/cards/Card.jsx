@@ -21,7 +21,7 @@ export const Card = ({ nombre, descripcion, img }) => {
           <h2 className="card-title">{nombre}</h2>
           <p>{descripcion}</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+            <button className="btn btn-primary">Detalle</button>
           </div>
         </div>
       </div>
