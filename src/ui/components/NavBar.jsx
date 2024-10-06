@@ -3,7 +3,7 @@ import { Avatar } from "./Avatar";
 export const NavBar = () => {
   return (
     <div
-      className="navbar bg-base-100 grid grid-cols-2 justify-items-center fixed z-30"
+      className="navbar grid grid-cols-2 justify-items-center fixed z-30 backdrop-blur-xl"
       // style={{ "z-index": 20 }}
     >
       <div className="flex-1">

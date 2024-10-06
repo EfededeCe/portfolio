@@ -4,6 +4,7 @@ export const Hero = () => {
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold ">Federico del Corro</h1>
+          <h1 className="text-xl font-bold mt-2">Full Stack Developer</h1>
           <p className="pt-6 font-semibold">¡Hola estimad@!</p>
           <p className="py-6 ">
             Soy Fede, desarrollador web full stack. Trabajo principalmente con
@@ -25,10 +26,22 @@ export const Hero = () => {
               git
             </a>
             . Si querés que
-            <span className="font-extrabold"> trabajemos juntos</span>, o tenés
-            alguna consulta, no dudes en hacermela llegar por mis redes.
+            <a
+              target="blank"
+              href={"https://linkedin.com/in/federico-del-corro-b49501236"}
+              className="underline font-bold"
+            >
+              {" "}
+              trabajemos juntos
+            </a>
+            , o tenés alguna consulta, no dudes en hacermela llegar por mis
+            redes.
           </p>
-          <button className="btn btn-primary">Proyectos</button>
+          <a href="/#proyectos" className="">
+            <button className="btn btn-primary shadow shadow-green-800">
+              Proyectos
+            </button>
+          </a>
         </div>
       </div>
     </div>
