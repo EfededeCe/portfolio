@@ -6,8 +6,7 @@ export const Footer = () => {
           Copyright © {new Date().getFullYear()} - Creado por Federico del Corro
         </p>
         <p>
-          Este portafolio lo hice utilizando las tecnologías Next.js con vanilla
-          JS, Tailwind y DaisyUI
+          Este portafolio fue realizado utilizando Next.js, Tailwind y DaisyUI
         </p>
       </aside>
     </footer>

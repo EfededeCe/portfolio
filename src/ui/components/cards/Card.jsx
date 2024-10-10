@@ -37,14 +37,14 @@ export const Card = ({ nombre, descripcion, detalle, img }) => {
           <>
             <h2 className="card-title">{nombre}</h2>
             <p>{descripcion}</p>
-            <div className="card-actions justify-end">
+            {/* <div className="card-actions justify-end">
               <button
                 className="btn btn-primary opacity-100"
                 onClick={handleShowDesc}
               >
                 Detalle
               </button>
-            </div>
+            </div> */}
           </>
         </div>
 
