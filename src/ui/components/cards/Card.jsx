@@ -14,9 +14,7 @@ export const Card = ({ nombre, descripcion, detalle, img }) => {
   return (
     <>
       <div
-        className={`card bg-base-100 image-full w-96 shadow-xl mx-auto my-10 max-h-80 ${
-          showDesc ? "" : ""
-        }`}
+        className={`card bg-base-100 image-full w-96 shadow-xl mx-auto lg:my-3 sm:my-3 my-0 max-h-80`}
       >
         <figure>
           <Image
@@ -50,20 +48,27 @@ export const Card = ({ nombre, descripcion, detalle, img }) => {
           </>
         </div>
 
-        <div
+        {/* <div
           className={`absolute top-0 left-0 h-full w-full bg-base-100 z-30 p-5 transition-transform duration-300 transform ${
             showDesc
               ? " translate-x-0 z-20"
               : "opacity-0 -translate-x-[100vw] z-0"
           }`}
+        > */}
+        {/* <div
+          className={`absolute top-0 left-0 h-full w-full content-center bg-base-100 z-30 p-5 transition-transform duration-300 transform ${
+            showDesc
+              ? " translate-x-0 z-20"
+              : "opacity-0 -translate-x-[100vw] z-0"
+          }`}
         >
-          <p className="bg-black">{detalle}</p>
-          <div className="card-actions justify-end">
+          <p className="bg-slate-400 p-4 min-h-10 rounded-t-xl">{detalle}</p>
+          <div className="card-actions justify-end bg-slate-400 p-4  rounded-b-xl">
             <button className="btn btn-primary" onClick={handleShowDesc}>
               Atrás
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

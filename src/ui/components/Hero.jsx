@@ -2,20 +2,29 @@ export const Hero = () => {
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content text-center">
-        <div className="max-w-md">
-          <h1 className="text-5xl font-bold ">Federico del Corro</h1>
-          <h1 className="text-xl font-bold mt-2">Full Stack Developer</h1>
-          <p className="pt-6 font-semibold">¡Hola estimad@!</p>
-          <p className="py-6 ">
-            Soy Fede, desarrollador web full stack. Trabajo principalmente con
-            tecnologías del ecosistema{" "}
-            <span className=" text-yellow-200">JavaScript</span>, como
-            <span className="font-thin"> Node.js, Express, React, Next.js</span>
+        <div className="max-w-md mt-24">
+          <h1 className="text-5xl font-bold text-slate-200">
+            Federico del Corro
+          </h1>
+          <h2 className="text-xl font-bold mt-4 text-slate-300">
+            Full Stack Developer
+          </h2>
+          <p className="pt-14 font-semibold">¡Hola estimad@!</p>
+          <p className="py-6 px-2 text-start">
+            Desarrollo soluciones para integrar la web con el mundo real y
+            avanzar camino a la digitalización, principalmente con tecnologías
+            del ecosistema <span className=" text-yellow-200">JavaScript</span>,
+            como
+            <span className="font-thin text-yellow-200">
+              {" "}
+              Node.js, Express, React, Next.js
+            </span>
             . Además, he trabajado en algunos proyectos con{" "}
             <span className=" text-green-200">Python</span> realizando APIs con
-            su framework <span className="font-thin">Django</span>.
+            su framework{" "}
+            <span className="font-thin text-green-200">Django</span>.
           </p>
-          <p className="pb-6">
+          <p className="pb-6 px-2 text-start">
             Podés conocer a cerca de mis trabajos acá y para más detalles en mi
             <a
               target="blank"
@@ -34,12 +43,12 @@ export const Hero = () => {
               {" "}
               trabajemos juntos
             </a>
-            , o tenés alguna consulta, no dudes en hacermela llegar por mis
+            , o tenés alguna consulta, no dudes en hacérmela llegar por mis
             redes.
           </p>
           <a href="/#proyectos" className="">
             <button className="btn btn-primary shadow shadow-green-800">
-              Proyectos
+              Experiencias
             </button>
           </a>
         </div>
