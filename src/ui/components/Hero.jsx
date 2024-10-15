@@ -1,3 +1,13 @@
+import {
+  Django,
+  GitHub,
+  JavaScript,
+  LinkedIn,
+  Linux,
+  Python,
+  React,
+} from "@/ui/icons";
+
 export const Hero = () => {
   return (
     <div className="hero bg-base-200 min-h-screen">
@@ -46,7 +56,45 @@ export const Hero = () => {
             , o tenés alguna consulta, no dudes en hacérmela llegar por mis
             redes.
           </p>
-          <a href="/#proyectos" className="">
+          <div className="flex mb-10 md:px-10 gap-14">
+            <React
+              width={"2em"}
+              height={"2em"}
+              className={
+                "hover:scale-125 transition hover:bg-white/10 rounded-full text-white"
+              }
+            />
+            <JavaScript
+              width={"2em"}
+              height={"2em"}
+              className={
+                "hover:scale-125 transition hover:bg-white/10 rounded-lg"
+              }
+            />
+            <Linux
+              width={"2em"}
+              height={"2em"}
+              fill={"#fff"}
+              className={
+                "hover:scale-125 transition hover:bg-white/10 rounded-full"
+              }
+            />
+            <Python
+              width={"2em"}
+              height={"2em"}
+              className={
+                "hover:scale-125 transition hover:bg-white/10 rounded-full"
+              }
+            />
+            <Django
+              width={"2em"}
+              height={"2em"}
+              className={
+                "hover:scale-125 transition hover:bg-white/10 rounded-full"
+              }
+            />
+          </div>
+          <a href="/#proyectos">
             <button className="btn btn-primary shadow shadow-green-800">
               Experiencias
             </button>
