@@ -185,7 +185,7 @@ const msgs = [
     id: "g7",
   },
   {
-    msg: "Por último, también han sido de gran ayuda en mi formación los distintos trabajos en los que tube la fortuna de poder participar, a veces sólo, a veces con un equipo, siempre buscando la mejor y más adecuada solución para cada momento, enfrentando los desafíos que van apareciendo en el camino para sacar adelante el proyecto.",
+    msg: "Por último, también han sido de gran ayuda en mi formación los distintos trabajos en los que tuve la fortuna de poder participar, a veces sólo, a veces con un equipo, siempre buscando la mejor y más adecuada solución para cada momento, enfrentando los desafíos que van apareciendo en el camino para sacar adelante el proyecto.",
     who: "f",
     id: "h8",
   },
