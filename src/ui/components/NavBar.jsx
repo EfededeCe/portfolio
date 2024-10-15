@@ -7,14 +7,14 @@ export const NavBar = () => {
       // style={{ "z-index": 20 }}
     >
       <div className="flex-1">
-        <Avatar />
+        <a href="#hero">
+          <Avatar />
+        </a>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a href="https://github.com/EfededeCe" target="blank">
-              Sobre mi
-            </a>
+            <a href="#sobre-mi">Sobre mi</a>
           </li>
           <li>
             <details>

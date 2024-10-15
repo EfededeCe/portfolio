@@ -12,7 +12,7 @@ export { MariaDB } from "./MariaDB";
 export { MongoDB } from "./MongoDB";
 export { MySQL } from "./MySQL";
 export { Nextjs } from "./Nextjs";
-export { Node } from "./Node";
+export { Nodejs } from "./Node";
 export { PostgreSQL } from "./PostgreSQL";
 export { Prisma } from "./Prisma";
 export { React } from "./React";

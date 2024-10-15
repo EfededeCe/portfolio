@@ -25,7 +25,7 @@ export const Card = ({ nombre, descripcion, detalle, tecs, img }) => {
   return (
     <>
       <div
-        className={`card bg-base-100 image-full w-96  hover:shadow-secondary/30 hover:shadow-2xl mx-auto lg:my-3 sm:my-3 my-0 max-h-80 hover:scale-110 transition delay-75 duration-300`}
+        className={`card bg-base-100 image-full w-96  hover:shadow-secondary/30 hover:shadow-2xl mx-auto sm:my-3 max-h-80 md:hover:scale-110 transition delay-75 duration-300`}
       >
         <figure>
           <Image src={img ? img : ""} width={500} height={500} alt="Exp." />
@@ -38,7 +38,7 @@ export const Card = ({ nombre, descripcion, detalle, tecs, img }) => {
         >
           <>
             <h2 className="card-title text-white">{nombre}</h2>
-            <p className="font-bold text-white/70 hover:text-white transition">
+            <p className="font-bold text-white md:text-white/70 md:hover:text-white transition">
               {descripcion}
             </p>
             {/* <div className="flex gap-3 min-h-7 p-2 bg-white bg-opacity-10 content-between justify-evenly rounded-md"> */}
