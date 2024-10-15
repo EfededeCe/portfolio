@@ -31,6 +31,7 @@ const msgs = [
       </p>
     ),
     who: "f",
+    id: "a1",
   },
   {
     msg: (
@@ -40,6 +41,7 @@ const msgs = [
       </p>
     ),
     who: "a",
+    id: "b2",
   },
   {
     msg: (
@@ -52,6 +54,7 @@ const msgs = [
       </p>
     ),
     who: "f",
+    id: "c3",
   },
   {
     msg: (
@@ -65,12 +68,14 @@ const msgs = [
       </p>
     ),
     who: "f",
+    id: "d4",
   },
   {
     msg: (
       <p className="font-extrabold">¿Y con qué tecnologías sueles trabajar?</p>
     ),
     who: "a",
+    id: "e5",
   },
   {
     msg: (
@@ -82,6 +87,7 @@ const msgs = [
       </p>
     ),
     who: "f",
+    id: "f6",
   },
   {
     msg: (
@@ -176,14 +182,17 @@ const msgs = [
       </ul>
     ),
     who: "f",
+    id: "g7",
   },
   {
     msg: "Por último, también han sido de gran ayuda en mi formación los distintos trabajos en los que tube la fortuna de poder participar, a veces sólo, a veces con un equipo, siempre buscando la mejor y más adecuada solución para cada momento, enfrentando los desafíos que van apareciendo en el camino para sacar adelante el proyecto.",
     who: "f",
+    id: "h8",
   },
   {
     msg: <span className="font-extrabold">¿De dónde eres?</span>,
     who: "a",
+    id: "i9",
   },
   {
     msg: (
@@ -193,10 +202,12 @@ const msgs = [
       </p>
     ),
     who: "f",
+    id: "j10",
   },
   {
     msg: <span className="font-extrabold">¿Qué estás buscando?</span>,
     who: "a",
+    id: "k11",
   },
   {
     msg: (
@@ -219,10 +230,12 @@ const msgs = [
       </p>
     ),
     who: "f",
+    id: "l12",
   },
   {
     msg: "Estoy en la búsqueda de un trabajo en el que pueda continuar desarrollándome como profesional en el ámbito de la programación, donde cuente con la compañía de otros profesionales y podamos colaborar en proyectos más ambiciosos y desafiantes.",
     who: "f",
+    id: "m13",
   },
 ];
 
@@ -230,7 +243,7 @@ export const Chat = () => {
   return (
     <section className="justify-center lg:max-w-5xl m-auto my-10 px-4 lg:px-40">
       {msgs.map((e) => (
-        <ChatBubble {...e} />
+        <ChatBubble key={e.id} {...e} />
       ))}
     </section>
   );

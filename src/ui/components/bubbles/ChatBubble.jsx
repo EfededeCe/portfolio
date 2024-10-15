@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const ChatBubble = ({ who, msg }) => {
   return (
     <>
@@ -5,7 +7,9 @@ export const ChatBubble = ({ who, msg }) => {
         <div className="chat chat-start">
           <div className="chat-image avatar online">
             <div className="w-10 rounded-full">
-              <img
+              <Image
+                width={150}
+                height={150}
                 alt="Tailwind CSS chat bubble component"
                 src="/avatar.jpeg"
               />
