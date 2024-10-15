@@ -237,6 +237,11 @@ const msgs = [
     who: "f",
     id: "m13",
   },
+  {
+    msg: "Estoy en la búsqueda de un trabajo en el que pueda aportar valor, desde mi lugar como desarrollador, mejorando sistemas o implementando nuevos, debatir sobre las mejores prácticas y formas para que podamos realizar proyectos más ambiciosos y desafiantes.",
+    who: "f",
+    id: "m13",
+  },
 ];
 
 export const Chat = () => {
