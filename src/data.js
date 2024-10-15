@@ -6,6 +6,7 @@ export const expLaborales = [
       "FullStack Developer en la Dirección de Tecnología Educativa de la provincia de Buenos Aires, Argentina, desde el año 2022.",
     detalle: "El detalle...",
     img: "/imgs/dte.png",
+    tecs: ["next", "tailwind", "docker", "postgresql"],
   },
   {
     id: "2b",
@@ -15,6 +16,7 @@ export const expLaborales = [
     detalle:
       "El detalle...Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     img: "/imgs/ch.png",
+    tecs: ["next", "docker", "prisma", "mysql"],
   },
   {
     id: "3d",
@@ -23,6 +25,7 @@ export const expLaborales = [
       "FullStack Developer diseñando, desarrollando, creando entornos virtuales con contenedores utilizando Docker, para una plataforma hecha principalmente en Next.js y Django.",
     detalle: "El detalle...",
     img: "/imgs/tb.png",
+    tecs: ["next", "django", "docker", "mysql"],
   },
   {
     id: "4e",
@@ -31,5 +34,6 @@ export const expLaborales = [
       "FullStack Developer creando e implementando solución para publicidad dentro del local, con sliders actualizables y automatizados.",
     detalle: "El detalle...",
     img: "/imgs/pz.png",
+    tecs: ["express", "bootstrap"],
   },
 ];
