@@ -233,12 +233,7 @@ const msgs = [
     id: "l12",
   },
   {
-    msg: "Estoy en la búsqueda de un trabajo en el que pueda continuar desarrollándome como profesional en el ámbito de la programación, donde cuente con la compañía de otros profesionales y podamos colaborar en proyectos más ambiciosos y desafiantes.",
-    who: "f",
-    id: "m13",
-  },
-  {
-    msg: "Estoy en la búsqueda de un trabajo en el que pueda aportar valor, desde mi lugar como desarrollador, mejorando sistemas o implementando nuevos, debatir sobre las mejores prácticas y formas para que podamos realizar proyectos más ambiciosos y desafiantes.",
+    msg: "Estoy en la búsqueda de un trabajo en el que pueda aportar valor, desde mi lugar como desarrollador, mejorando sistemas o implementando nuevos, debatir sobre mejores prácticas y formas para que podamos realizar proyectos más ambiciosos y desafiantes juntos.",
     who: "f",
     id: "m13",
   },
